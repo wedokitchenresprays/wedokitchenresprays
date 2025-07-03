@@ -2,3 +2,4 @@
 .idea
 .devcontainer
 venv/
+RELEASE*
