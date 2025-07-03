@@ -1,11 +1,19 @@
 ![Logo](https://cdn.cottle.cloud/GitHub/LittleLink/littlelink.gif)
 
 # LittleLink
-The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more regularly added by our community in this repo and in [LittleLink Extended](https://github.com/sethcottle/littlelink-extended).
+The DIY self-hosted LinkTree alternative, now with a modular, template-driven landing page system! LittleLink lets you create a personalized landing page with multiple link templates (like "All Links" and "Professional Links"), all managed as separate HTML fragments for easy customization and scalability. All modular link files are organized in the `links_folder/` directory for a cleaner project structure.
 
 ---
 ### 🆕 LittleLink Button Builder
 Want to make your own buttons for LittleLink but you're not too sure where to start? [Check out our new Button Builder](https://builder.littlelink.io). This new builder lets you preview button styles and with a single click, copy the generated CSS code to put in `css/brands.css`, and copy the generated HTML code to put in `index.html`. This builder also helps automate accessibility features by checking contrast ratios and suggesting strokes when needed, ensuring your custom buttons maintain LittleLink's high standards for visibility in both light and dark themes. Design your buttons visually, preview them live, and get ready to go code. [Live Site](https://builder.littlelink.io) | [GitHub Repo](https://github.com/sethcottle/littlelink-button-builder)
+
+---
+### 🌟 What's New in v1.0.0?
+- **Modular Landing Page:** Clean profile landing page with togglable link templates ("All Links", "Professional Links", and more coming soon!)
+- **Dynamic Link Loading:** Links are loaded dynamically via JavaScript for performance and maintainability
+- **Organized Structure:** All link HTML fragments are now in `links_folder/` to keep your project root clean
+- **Easy Customization:** Add new link templates by simply creating new HTML files in `links_folder/`
+- **Ready for GitHub Pages:** Fully static, no server-side code required
 
 ---
 ### 🌞 Themes and Accessibility
@@ -76,6 +84,8 @@ You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/
 • **[Drew Davis](https://connect.davisdre.me)**
 
 • **[Robotter112](https://robotter112.de/)**
+
+• **[Junior Ducatel](https://github.com/juniorduc44)**
 
 [![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-individual.svg)](https://www.buymeacoffee.com/seth/e/50573)
 
